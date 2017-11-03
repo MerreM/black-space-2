@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "main_app.app",
+        "aws_region": null,
+        "profile_name": "personal",
+        "project_name": "black-space-2",
+        "runtime": "python3.6",
+        "s3_bucket": "blackspace-deployment"
+    }
+}

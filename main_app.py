@@ -14,3 +14,8 @@ def index():
 @app.route('/about_me')
 def about_me():
     return render_template('about_me.html')
+
+
+@app.route('/playful')
+def playful():
+    return render_template('playful.html')

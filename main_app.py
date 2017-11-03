@@ -19,3 +19,8 @@ def about_me():
 @app.route('/playful')
 def playful():
     return render_template('playful.html')
+
+
+@app.route('/life')
+def life():
+    return render_template('life.html')

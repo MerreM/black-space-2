@@ -16,6 +16,11 @@ def about_me():
     return render_template('about_me.html')
 
 
+@app.route('/particles')
+def particles():
+    return render_template('particles.html')
+
+
 @app.route('/playful')
 def playful():
     return render_template('playful.html')

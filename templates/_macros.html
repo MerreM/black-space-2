@@ -1,0 +1,11 @@
+{% macro nav_options(url_list, request) -%}
+    {% for func_name, readable in url_list.items() %}
+    <li class="nav-item {% if request.path == url_for(func_name) %} active{% endif %}">
+      <a class="nav-link " href="{{url_for(func_name)}}">{{readable}}
+        {% if request.path == url_for(func_name) %}
+        <span class="sr-only">(current)</span>
+        {% endif %}
+      </a>
+    </li>
+    {% endfor %}
+{% endmacro %}

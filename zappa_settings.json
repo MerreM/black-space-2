@@ -4,7 +4,7 @@
         "aws_region": "eu-west-1",
         "profile_name": "personal",
         "project_name": "black-space-2",
-        "runtime": "python3.6",
+        "runtime": "python3.9",
         "s3_bucket": "blackspace-deployment-dev"
     },
     "live": {
@@ -12,7 +12,7 @@
         "aws_region": "eu-west-1",
         "profile_name": "personal",
         "project_name": "black-space-2",
-        "runtime": "python3.6",
+        "runtime": "python3.9",
         "s3_bucket": "blackspace-deployment-live"
     }
 }

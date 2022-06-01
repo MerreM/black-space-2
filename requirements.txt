@@ -33,7 +33,7 @@ tomli==2.0.1
 tqdm==4.19.1
 troposphere==4.0.2
 Unidecode==1.0.22
-urllib3==1.24.3
+urllib3==1.26.5
 Werkzeug==2.1.2
 wsgi-request-logger==0.4.6
 zappa==0.54.1

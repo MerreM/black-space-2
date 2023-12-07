@@ -1,18 +1,18 @@
 {
     "dev": {
-        "app_function": "main_app.app",
+        "app_function": "black_space.app",
         "aws_region": "eu-west-1",
         "profile_name": "personal",
         "project_name": "black-space-2",
-        "runtime": "python3.9",
+        "runtime": "python3.11",
         "s3_bucket": "blackspace-deployment-dev"
     },
     "live": {
-        "app_function": "main_app.app",
+        "app_function": "black_space.app",
         "aws_region": "eu-west-1",
         "profile_name": "personal",
         "project_name": "black-space-2",
-        "runtime": "python3.9",
+        "runtime": "python3.11",
         "s3_bucket": "blackspace-deployment-live"
     }
 }
